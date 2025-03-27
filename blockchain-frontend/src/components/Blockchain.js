@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Block from './Block';
 import './Blockchain.css';
-import { sha256 } from 'js-sha256'; // Install with `npm install js-sha256`
+import { sha256 } from 'js-sha256'; // Installing sha256
 
 function Blockchain() {
   const [blockchain, setBlockchain] = useState([
